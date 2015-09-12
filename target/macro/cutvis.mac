@@ -1,0 +1,20 @@
+/vis/open OGLI
+/vis/scene/create
+
+/vis/scene/add/trajectories smooth
+/vis/modeling/trajectories/create/drawByCharge
+/vis/modeling/trajectories/drawByCharge-0/default/setDrawStepPts true
+/vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 2
+
+/vis/scene/endOfEventAction accumulate
+/vis/scene/add/volume World -1 -1 box m -100 100 0 100 -100 100
+/vis/scene/add/axes 0 0 0 20 cm
+/vis/scene/add/scale
+/vis/sceneHandler/attach
+/vis/viewer/set/auxiliaryEdge true
+/vis/viewer/set/style surface
+/vis/geometry/set/visibility World 0 false
+#/vis/geometry/set/visibility fieldRegion 0 false
+/vis/viewer/set/background 1 1 1
+
+/vis/viewer/set/autoRefresh true

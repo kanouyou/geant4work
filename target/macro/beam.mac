@@ -1,0 +1,7 @@
+/gps/particle proton
+/gps/energy 8 GeV
+/gps/pos/sigma_x 2.9 mm
+/gps/pos/sigma_y 5.8 mm
+/gps/position 0 0 -31 cm
+/gps/direction 0 0 1
+
